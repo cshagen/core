@@ -311,17 +311,17 @@ export const chargemodes: { [key: string]: ChargeModeInfo } = {
 		color: 'var(--color-charging)',
 		icon: 'fa-bolt',
 	},
-	scheduled_charging: {
-		mode: ChargeMode.scheduled_charging,
-		name: 'Zielladen',
-		color: 'var(--color-battery)',
-		icon: 'fa-bullseye',
-	},
 	pv_charging: {
 		mode: ChargeMode.pv_charging,
 		name: 'PV',
 		color: 'var(--color-pv',
 		icon: 'fa-solar-panel',
+	},
+	scheduled_charging: {
+		mode: ChargeMode.scheduled_charging,
+		name: 'Zielladen',
+		color: 'var(--color-battery)',
+		icon: 'fa-bullseye',
 	},
 	standby: {
 		mode: ChargeMode.standby,
