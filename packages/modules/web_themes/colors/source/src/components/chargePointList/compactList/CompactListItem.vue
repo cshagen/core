@@ -267,7 +267,7 @@ const chargeLimitsString = computed(() => {
 				return ''
 		}
 	} else {
-		return 'limit'
+		return ''
 	}
 })
 </script>
